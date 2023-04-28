@@ -1,4 +1,5 @@
 # Keccak256-collisions
+
 This repository includes rainbow tables that using the Keccak256 hash algorithm to generate common English words.
 
 No salt was added when computing the hashes, allowing one to look up a specified word's hash. This is concerning since Keccak256 is widely used in Ethereum applications.This helps to demonstrate some of the security vulnerabilities of using Keccak256 in Ethereum and blockchain and can serve as an example for studying hash algorithms and cryptography.
@@ -25,3 +26,22 @@ func ExampleKeccak256Hash() {
 }
 
 ```
+
+## Usage
+
+```bash
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+## License
+
+[CC0 1.0 Universal](LICENSE)
+
+## Acknowledgments
+
+* [english-words](https://github.com/dwyl/english-words)
